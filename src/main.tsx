@@ -26,7 +26,7 @@ const HomeScreen: React.FC = () => {
     onClick={handleVerDniClick}>
       <div style={{ marginBottom: '20px', width: '100%' }}>
         <img
-          src="/image_1.PNG" // Asegúrate de que esta imagen esté en la carpeta 'public'
+          src="./image_1.png" // Asegúrate de que esta imagen esté en la carpeta 'public'
           alt="Documentos"
           style={{ width: '100%', height: 'auto', display: 'block' }}
         />
