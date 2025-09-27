@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 
@@ -62,6 +62,10 @@ const DniScreen: React.FC = () => {
 
 // Componente principal de la aplicación con rutas
 const App: React.FC = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate('/');
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
