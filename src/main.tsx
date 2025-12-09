@@ -51,7 +51,7 @@ const DniScreen: React.FC = () => {
       boxSizing: 'border-box'
     }}>
       <img
-        src="/image_tatino.png"
+        src="/image_2.png"
         alt="DNI Digital"
         style={{ width: '100%', height: 'auto', display: 'block' }}
       />
