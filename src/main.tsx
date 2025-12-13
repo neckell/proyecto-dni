@@ -15,7 +15,7 @@ const HomeScreen: React.FC = () => {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-    //   padding: '20px',
+      //   padding: '20px',
       backgroundColor: '#fff',
       borderRadius: '8px',
       boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
@@ -23,7 +23,7 @@ const HomeScreen: React.FC = () => {
       width: '100%',
       boxSizing: 'border-box'
     }}
-    onClick={handleVerDniClick}>
+      onClick={handleVerDniClick}>
       <div style={{ marginBottom: '20px', width: '100%' }}>
         <img
           src="./image_1.png"
@@ -42,7 +42,7 @@ const DniScreen: React.FC = () => {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-    //   padding: '20px',
+      //   padding: '20px',
       backgroundColor: '#fff',
       borderRadius: '8px',
       boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
@@ -55,7 +55,6 @@ const DniScreen: React.FC = () => {
         alt="DNI Digital"
         style={{ width: '100%', height: 'auto', display: 'block' }}
       />
-      {/* Puedes agregar más elementos o información si es necesario */}
     </div>
   );
 };
