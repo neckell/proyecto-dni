@@ -37,10 +37,12 @@ const HomeScreen: React.FC = () => {
 
 // Componente para la pantalla del DNI Digital
 const DniScreen: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <div style={{
-      display: 'flex',
-      flexDirection: 'column',
+      // position: 'relative',
+      // display: 'flex',
+      // flexDirection: 'column',
       alignItems: 'center',
       //   padding: '20px',
       backgroundColor: '#fff',
@@ -50,6 +52,8 @@ const DniScreen: React.FC = () => {
       width: '100%',
       boxSizing: 'border-box'
     }}>
+      <button onClick={() => navigate('/')}
+        style={{ position: 'absolute', opacity: '0', height: '62px', width: '100%' }}></button>
       <img
         src="/image_2.png"
         alt="DNI Digital"
